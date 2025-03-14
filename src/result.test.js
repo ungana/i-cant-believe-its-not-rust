@@ -34,7 +34,6 @@ describe("result-type", () => {
       (value) => value,
       (_) => assert.fail("result.match was Err, when it should be Ok"),
     );
-    console.log(matched);
     assert.strictEqual(matched, "It works 🚀");
   });
 });
